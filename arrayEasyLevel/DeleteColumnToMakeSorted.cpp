@@ -23,3 +23,11 @@ int minDeletionSize(const std::vector<std::string>& strs)
 
     return count;
 }
+
+int main()
+{
+    std::vector<std::string> strs{"abc", "bce", "cae"};
+    std::cout << "Number of columns to delete: " << minDeletionSize(strs) << std::endl;
+
+    return 0;
+}
