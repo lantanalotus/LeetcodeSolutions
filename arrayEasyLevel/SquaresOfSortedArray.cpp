@@ -11,7 +11,7 @@ constexpr T square(T x)
     return x * x;
 }
 
-std::vector<int> sortedSquares(std::span<int> nums)
+std::vector<int> sortedSquares(const std::span<int> nums)
 {
     std::vector<int> result{nums.begin(), nums.end()};
 
