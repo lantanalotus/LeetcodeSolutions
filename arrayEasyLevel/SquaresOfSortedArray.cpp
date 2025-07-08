@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <ranges>
 #include <chrono>
-
+#include <span>
 
 template <typename T>
 constexpr T square(T x)
@@ -11,7 +11,7 @@ constexpr T square(T x)
     return x * x;
 }
 
-
+std::vector<int> sortedSquares(std::span<int> nums)
 {
     std::vector<int> result{nums.begin(), nums.end()};
 
