@@ -1,3 +1,3 @@
 # LeetCode Solutions
 
-This repository contains C++ solutions to some LeetCode problems.
+This repository contains C++ solutions made by ChatGpt to some LeetCode problems.
